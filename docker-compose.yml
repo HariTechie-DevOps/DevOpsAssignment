@@ -19,6 +19,7 @@ services:
 
   nginx:
     build: ./nginx
+    container_name: nginx
     ports:
       - "8080:80"
     depends_on:
