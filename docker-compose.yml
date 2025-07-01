@@ -25,7 +25,7 @@ services:
 
   nginx:
     build: 
-      context: ./service_1
+      context: ./nginx
     ports:
       - "8081:80"
     healthcheck:
